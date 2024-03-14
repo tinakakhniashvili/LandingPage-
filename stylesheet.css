@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header h1{
+    font-family: 'Caveat Brush', cursive; 
+    font-size: 8vh;
+    margin-bottom: -5px;
+}
+
+.header img{
+    width: 180px;
+    height: auto;
+    margin-bottom: 0%;
+}
+
+.image-container1 {
+    display: flex;
+    justify-content: center; 
+}
+
+.image-container2 {
+    display: flex;
+    justify-content: center; 
+}
+
+.header p{
+   font-family: 'Montserrat', cursive;
+   font-size: 11px;
+   margin-bottom: -8px;
+   opacity: 0.5;
+}
+.header p.last {
+    margin-bottom: 10px;
+}
+
+.qst p{
+    font-family: 'Montserrat', cursive;
+    font-size: 10px;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.qst hr{
+    opacity: 0.1;
+}
+
+.first {
+    font-family: 'Montserrat', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.first p{
+    font-size: 8px;
+    opacity: .5;
+}
+
+.first h4{
+    font-size: 10px;
+    align-items: center;
+}
+
+.second {
+    font-family: 'Montserrat', cursive;
+    display: flex;
+}
+
+.second p{
+    font-size: 8px;
+    opacity: .5;
+}
+
+.second h4{
+    font-size: 10px;
+    align-items: center;
+}
+
+.qst .color p{
+    text-wrap: nowrap;
+}
+
+.color{
+    color: #807C59;
+    white-space: nowrap;
+}
+
+.qst span{
+    text-decoration: underline;
+
+}
+
+.section p{
+    opacity: 0.5;
+ }
+
+ #sectionsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', cursive;
+    gap: 40px;
+    padding: 2vh;
+    align-items:center;
+    justify-content: center;
+    margin: 5vh;
+    width: 80%;
+  }
+
+  footer{
+    display: flex; 
+    justify-content: center;
+    align-items: cent;
+  }
