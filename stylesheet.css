@@ -20,14 +20,9 @@
     margin-bottom: 0%;
 }
 
-.image-container1 {
-    display: flex;
-    justify-content: center; 
-}
-
-.image-container2 {
-    display: flex;
-    justify-content: center; 
+.container {
+    display: block;
+    margin: 0 auto;
 }
 
 .header p{
@@ -103,21 +98,44 @@
     opacity: 0.5;
  }
 
- #sectionsContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-family: 'Montserrat', cursive;
-    gap: 40px;
-    padding: 2vh;
-    align-items:center;
-    justify-content: center;
-    margin: 5vh;
-    width: 80%;
+  .registration-container {
+    display: none;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  .registration-container input[type="text"],
+  .registration-container input[type="email"],
+  .registration-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .registration-container input[type="submit"] {
+    width: 100%;
+    background-color: #807C59;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .show-registration-btn {
+    background-color: #807C59;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
   }
 
-  footer{
-    display: flex; 
-    justify-content: center;
-    align-items: cent;
-  }
